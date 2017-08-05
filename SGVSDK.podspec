@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SGVSDK'
   s.version          = '2.2.1'
-  s.summary          = 'A short description of SGVSDK.'
+  s.summary          = 'SGVSDK for SGV'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-description
+ SGV SDK descriptionSGV SDK descriptionSGV SDK descriptionSGV SDK descriptionSGV SDK description
                        DESC
 
-  s.homepage         = 'https://github.com/qiushuitian1111/SGVSDK'
+  s.homepage         = 'https://github.com/qiushuitian/SGVSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'qiushuitian1111' => 'qiushuitian1111@126.com' }
