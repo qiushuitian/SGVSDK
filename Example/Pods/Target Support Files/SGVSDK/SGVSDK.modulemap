@@ -1,0 +1,6 @@
+framework module SGVSDK {
+  umbrella header "SGVSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

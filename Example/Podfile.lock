@@ -1,0 +1,22 @@
+PODS:
+  - Expecta (1.0.5)
+  - SGVSDK (0.1.0)
+  - Specta (1.0.6)
+
+DEPENDENCIES:
+  - Expecta
+  - SGVSDK (from `../`)
+  - Specta
+
+EXTERNAL SOURCES:
+  SGVSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  SGVSDK: 3eccffcbeab9852730a33c307121f5782561921e
+  Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
+
+PODFILE CHECKSUM: 1cf17ab453d97017585ece0740f0d892a6b88af6
+
+COCOAPODS: 1.2.1
