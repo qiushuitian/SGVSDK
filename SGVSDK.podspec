@@ -33,12 +33,15 @@ Pod::Spec.new do |s|
   s.source_files = 'SGVSDK/Classes/**/*'
 
   s.vendored_frameworks = 'SGVSDK/SGVSDK.framework'
-  
+
   # s.resource_bundles = {
   #   'SGVSDK' => ['SGVSDK/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking'
+  s.dependency 'JSONModel'
+  s.dependency 'FMDB'
+  s.dependency 'MJExtension'
 end

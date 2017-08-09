@@ -92,4 +92,18 @@ typedef void(^SGVPositionResultBlock)(SGVRespCode code, SGVStation * station);
 +(void)updatePositon;
 +(void)updatePositionComplete:(SGVPositionResultBlock)complete;
 
+/** 开启到站提醒服务
+ */
++(void)startStationTipService;
+
+
+
+/** 关闭到站提醒服务
+ */
++(void)stopStationTipService;
+
+/** 是否到站提醒服务开启
+ */
++(BOOL)hasStationTipServiceStarted;
+
 @end
