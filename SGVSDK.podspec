@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SGVSDK/Classes/**/*'
+  #s.source_files = 'SGVSDK/Classes/**/*'
 
   s.vendored_frameworks = 'SGVSDK/SGVSDK.framework'
 
